@@ -1,0 +1,11 @@
+#include <cstdio>
+int main() {
+   int a,b,c,d,e;
+   printf("Enter five integers: ");
+   scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+   int somme=a+b+c+d+e;
+   printf("The sum of the five integers is: %d\n", somme);
+   float moyenne=somme/5;
+   printf("The average of the five integers is: %f\n", moyenne);
+    return 0;
+}
